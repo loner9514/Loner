@@ -150,6 +150,7 @@
                 </nav>
                 <audio id="audio" src="audio/Viego_Original_Kill_0.mp3"></audio>
                 <div class="des allowActive">
+                    </br>
                     Your pain is nothing compared with mine.
                 </div>                
         </div>
@@ -162,7 +163,7 @@
     window.addEventListener('scroll', function () {
         const audio = document.getElementById('audio');
 
-        if (!audioPlayed && window.scrollY > 50) { // Ganti 100 dengan posisi scroll yang diinginkan
+        if (!audioPlayed && window.scrollY > 10) { // Ganti 100 dengan posisi scroll yang diinginkan
             audio.play(); // Memutar audio
             audioPlayed = true; // Set flag jadi true biar cuma sekali
         }
