@@ -1,4 +1,6 @@
 let items = document.querySelectorAll('.allowActive');
+let slider = document.querySelector('.slider');
+let banner2 = document.querySelector('.banner2');
 let containerFuild = document.querySelector('.container-fuild');
 
 containerFuild.addEventListener('scroll', ()=>{
