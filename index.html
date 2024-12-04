@@ -11,24 +11,16 @@
 
         body {
             margin: 0;
-            font-family: 'Lobster', cursive;
+            font-family: 'Playfair Display', serif;
             background-color: #010001;
             color: #fff;
         }
 
-        .container {
-            width: 1200px;
-            max-width: 100%;
-            margin: auto;
-            padding: 50px 20px;
-            text-align: center;
-        }
-
         nav ul {
             list-style: none;
-            padding: 0;
+            padding: 1;
             margin: 0;
-            display: flex;
+            display: table;
             justify-content: center;
             gap: 20px;
         }
@@ -102,7 +94,7 @@
 </head>
 <body>
     <link rel="stylesheet" href="cssmuter.css">
-    <div class="banner">
+    <div class="banner2">
         <div class="slider" style="--quantity: 10">
             <div class="item" style="--position: 1"><img src="image/Subaru1.jpeg" alt=""></div>
             <div class="item" style="--position: 2"><img src="image/Subaru2.jpeg" alt=""></div>
@@ -116,9 +108,9 @@
             <div class="item" style="--position: 10"><img src="image/Subaru10.jpeg" alt=""></div>
         </div>
     <div class="container-fuild">
-        <div class="banner">
+        <div class="banner1">
             <div class="bg"></div>
-            <div class="content">
+            <div class="content1">
                 <link href="https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
                 hi
             </div>
@@ -133,9 +125,7 @@
             </header>
             <nav>
                 <ul>
-                    <li>follow</li>
-                    <li>Loner</li>
-                    <li>on:</li>
+                    <li>follow  Loner  on:</li>
                 </ul>
                 <nav>
                     <ul>
@@ -150,29 +140,11 @@
                 </nav>
                 <audio id="audio" src="audio/Viego_Original_Kill_0.mp3"></audio>
                 <div class="des allowActive">
-                    </br>
-                    </br>
-                    </br>
-                    </br>
-                    </br>
-                    Your pain is nothing compared with mine.
+                </br>
+                Your Paint Is Not Compared With Mine.
                 </div>                
         </div>
     </div>
-<script>
-    // Flag untuk memastikan audio hanya diputar sekali
-    let audioPlayed = false;
-
-    // Event listener untuk scroll
-    window.addEventListener('scroll', function () {
-        const audio = document.getElementById('audio');
-
-        if (!audioPlayed && window.scrollY > 2) { // Ganti 100 dengan posisi scroll yang diinginkan
-            audio.play(); // Memutar audio
-            audioPlayed = true; // Set flag jadi true biar cuma sekali
-        }
-    });
-</script>
     <script src="app.js"></script>
     <div class="container">
     </div>
