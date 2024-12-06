@@ -1,0 +1,22 @@
+.fade-box {
+    opacity: 0;
+    transition: opacity 0.1ms ease-in-out;
+  }
+  
+  .fade-box.show {
+    opacity: 1;
+  }
+  
+  .fade-box.hide {
+    opacity: 0;
+  }
+  
+  .fade-box img {
+    border-radius: 50%; /* Immediately make the image circular */
+    opacity: 0; /* Start invisible */
+    transition: opacity 1s ease-in-out 0.5s; /* Fade-in with a slight delay after becoming circular */
+  }
+  
+  .fade-box.show img {
+    opacity: 1; /* Fade the image in after the delay */
+  }
